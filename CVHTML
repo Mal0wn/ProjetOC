@@ -1,69 +1,101 @@
 <!DOCTYPE html>
 <head>
-<title>Curriculum Vitae</title>
-   <link rel="stylesheet" href="style.css" type="text/css" media="screen"/>
-   <script src="https://kit.fontawesome.com/2e150e9e42.js" crossorigin="anonymous"></script>
+  <title>Curriculum Vitae</title>
+  <link rel="stylesheet" href="style.css" type="text/css" media="screen"/>
+  <script src="https://kit.fontawesome.com/2e150e9e42.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-<div class="conteneur">
-<div class="element1">
-	<h1><div class="namespan">MARINE</div> MICHELOT</h1>	
-	<p><div class="workword">Dével</div><div class="workword2">oppeuse Web</div></div></p>
+  <div class="main-container">
+    <div class="container-sideBar-left">
+      <div class="element3"><div class="resp1">
+        <a href="marine.png"><img src="mini_marine.png" alt="Photo d'identité Marine" /></a>
+      </div>
 
-<div class="element2">
-	<h2>Contact</h2>
-		<div class par1><p>malomclt@gmail.com</p>
-			 <p>malow.n</p>
-			 <p>Malo M</p>
-		</div>
-</div>
-<div class="element3">
-	<a href="marine.png"><img src="mini_marine.png" alt="Photo d'identité Marine" /></a>
-</div>
+      <div class="element2">
+        <h2 class="conskiloi">Contact</h2>
+        <div class= "par1">
+          <p class="mail"><i class="fas fa-at"></i> malomclt@gmail.com</p>
+          <a href="https://www.instagram.com/malow.n/">
+            <p class="insta"><i class="fab fa-instagram"></i> malow.n</p></a>
+            <a href="https://fr.linkedin.com/in/malo-m-b43b91197?trk=people-guest_people_search-card">
+              <p class="linkedin"><i class="fab fa-linkedin"></i> Malo M</p> </a>
+            </div>
+          </div></div>
 
-<div class="element4">
-	<div><h2><i class="fas fa-user-tie"></i>Mon expérience</h2></div>
- 	<p><div class="exp1">COREP: Mai 2017 à aujourd'hui</div>
-    <br>Reprographie et Impression Numérique
-    <br>Gestion d'agence, facturation, comptabilité et gestion clientèle </p>
- 	<p><div class="exp1">Amazon : Sept 2016 à Janv 2017</div>
- 	<br>Manutentionnaire, mise en stock et contrôle qualité</p>
- 	<p><div class="exp1">DK Printing : Nov 2015 à Sept 2016</div>
-    <br>Responsable production en atelier 
-    <br>PLV, grands formats, enseigne et vitrophanie</p>
-    <p><div class="exp1">Pubos : Sept 2013 à Août 2015</div>
-    <br>Appprentie Sérigraphe textile , transfert textile et tampographie </p>
-    <p><div class="exp1">Inftech Ingenierie : Mars 2013 à Mai 2013</div>
-    <br>Stagiaire en bureau d'études, implantation urbaine</p>
-</div>
+          <div class="cont1">
+            <div class="element6"> <h2 class="conskiloi">Mes Compétences</h2>
+              <div class="skills1">
+                <p>Photoshop</p>
+                <p>Illustrator</p>
+                <p>Adobe Acrobat Pro</p>
+                <p>Caldera</p>
+                <p>Rastorlink</p>
+                <p>Word Excel</p>
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>JavaScript</p>
+              </div>
+            </div>
 
-<div class="element5">
-	<div><h2><i class="fas fa-graduation-cap"></i>Formation</h2></div>
-    <p>CAP serigraphie</p>
-    <p>BEP Carrières Sanitaires et Sociales</p>
-</div>
-<div class="element6"> <h2>Mes Compétences</h2> 
- 
- 	<div class="skills">
- 	<p>Photoshop</p>
- 	<p>Illustrator</p>
- 	<p>Adobe Acrobat Pro</p>
- 	<p>Caldera</p>
- 	<p>Rastorlink</p>
- 	<p>Word Excel</p>
- 	<p>HTML</p>
- 	<p>CSS</p>
- 	<p>JavaScript</p>
- 	</div>
- </div>
 
-<div class=element7> <h2>Loisirs</h2>
- <i class="fas fa-gamepad"></i> 
- <i class="fas fa-space-shuttle"></i> 
- <i class="fas fa-headphones"></i>
-</div>
+            <div class=element7>
+              
+             <h2 class="conskiloi">Loisirs</h2>
+             <div class="icones"> 
+              <i class="fas fa-gamepad"></i>
+              <i class="fas fa-space-shuttle"></i>
+              <i class="fas fa-headphones"></i>
+             </div>
+            </div>
+          </div>
 
-</div>
-</body>
-</html>
+          
+        </div>
+
+          <div class="container-right">
+
+          <div class="cont2">
+            <div class="element1">
+              <h1><span class="namespan">MARINE</span> MICHELOT</h1>
+              <p><span class="workword">Dével</span><span class="workword2">oppeuse Web</span></p>
+            </div>
+          </div>
+          <div class="cont1>">
+
+          </div>
+          <div class="cont1">
+
+          </div>
+          <div class="cont2">
+            <div class="element4">
+              <div><h2 class="exp"><i class="fas fa-user-tie"></i> Mon expérience</h2></div>
+              <p><div class="exp1">COREP: Mai 2017 à aujourd'hui</div>
+                <div class="exp2">Reprographie et Impression Numérique
+                <br>Gestion d'agence, facturation, comptabilité et gestion clientèle</div></p>
+                <p><div class="exp1">Amazon : Sept 2016 à Janv 2017</div>
+                  <div class="exp2">Manutentionnaire, mise en stock et contrôle qualité</div></p>
+                  <p><div class="exp1">DK Printing : Nov 2015 à Sept 2016</div>
+                    <div class="exp2">Responsable production en atelier
+                    <br>PLV, grands formats, enseigne et vitrophanie</div></p>
+                    <p><div class="exp1">Pubos : Sept 2013 à Août 2015</div>
+                      <div class="exp2">Appprentie Sérigraphe textile , transfert textile et tampographie</div> </p>
+                      <p><div class="exp1">Inftech Ingenierie : Mars 2013 à Mai 2013</div>
+                       <div class="exp2">Stagiaire en bureau d'études, implantation urbaine</div></p>
+                      </div>
+
+                      <div class="element5">
+                        <div><h2 class="exp"><i class="fas fa-graduation-cap"></i> Formation</h2></div>
+                        <p>CAP serigraphie</p>
+                        <p>BEP Carrières Sanitaires et Sociales</p>
+                        <p>Formation Développeur Web OpenClassRoom</p>
+                      </div></div>
+
+
+
+                    </div>
+
+                  </div>
+                </body>
+                </html>
