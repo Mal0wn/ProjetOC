@@ -1,31 +1,90 @@
-@font-face{ 
-	font-family: 'aaarghnormal';
-    src: url('Aaargh-webfont.eot');
-    src: url('Aaargh-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Aaargh-webfont.woff2') format('woff2'),
-         url('Aaargh-webfont.woff') format('woff'),
-         url('Aaargh-webfont.ttf') format('truetype'),
-         url('Aaargh-webfont.svg#aaarghnormal') format('svg');
+@font-face {
+    font-family: 'aaarghnormal';
+    src: url('./aaargh_normal_macroman/Aaargh-webfont.eot');
+    src: url('./aaargh_normal_macroman/Aaargh-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./aaargh_normal_macroman/Aaargh-webfont.woff2') format('woff2'),
+         url('./aaargh_normal_macroman/Aaargh-webfont.woff') format('woff'),
+         url('./aaargh_normal_macroman/Aaargh-webfont.ttf') format('truetype'),
+         url('./aaargh_normal_macroman/Aaargh-webfont.svg#aaarghnormal') format('svg');
     font-weight: normal;
     font-style: normal;
+
 }
 
-html { 
-	font-family: aaarghnormal;
+html {
+	font-family: aaarghnormal, Arial;
 	color: #263238;
+    font-size: 2em;
 	 }
 
 .element1 {
     color:black;
 }
 .namespan {
-    color:#F9A825;
+    color:#0097A7;
     font-weight: bold;
 }
 .workword {
     color: #263238;
-    text-decoration: underline #F9A825;
+    text-decoration: underline #0097A7;
 }
 .workword2 {
     color: #263238;
+}
+
+.element2 a {
+    text-decoration: none;
+}
+.conskiloi  {
+    background-color:#263238;
+    color:#0097A7;
+}
+.mail,.insta,.linkedin {
+    color:#263238;
+    background-color:#0097A7;
+}
+
+
+
+.exp {
+    color: black;
+    font-weight: bold;
+    border-bottom: 2px solid rgb(0,151,167);
+}
+.exp1,{
+    color:#263238;
+}
+
+.skills1 {
+    background-color: #0097A7;
+    color: #263238;
+}
+
+.fas.fa-user-tie, .fas.fa-graduation-cap {
+    color: #0097A7;
+}
+
+.container-sideBar-left {
+    background-color: #0097A7;
+}
+
+.container-right { 
+margin: 10px auto auto 50px;}
+
+.resp1, .par1, .skills1, .icones {
+    padding : 10px 10px 10px 10px;
+}
+.container-sideBar-left h2 {text-align: center;}
+/*Flexbox positionblocs*/
+
+.main-container,
+.container-sideBar-left,
+.container-right {
+    display: flex;
+}
+.main-container {
+    flex-direction: row;
+}
+.container-sideBar-left, .container-right{
+    flex-direction: column;
 }
