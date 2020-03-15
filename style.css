@@ -10,92 +10,141 @@
     font-style: normal;
 }
 
-.main-container, .contain-top, .contain-middle, .contain-bottom, .containpage, .skill_star, .bloc1 {
-	display: flex;
+.main-container, 
+.contain-top, 
+.contain-middle, 
+.contain-bottom,
+.bloc1, 
+.icones, 
+.skill_star, 
+.cont {
+    display: flex;
 }
 
 .main-container { 
-    flex-direction: column; 
+    flex-direction: column;
+    align-items: center;
+    font-size: 2em;
+    margin: auto;
+    height: auto;    
 }
 
 .contain-top {
-	flex-direction: row;
-}
-
-.containpage {
     flex-direction: row;
     justify-content: flex-start;
+    padding : 20px 20px 20px 20px;
 }
 
+.contain-middle{
+    flex-direction: column;
+    padding : 20px 20px 20px 20px;
+    margin-left: 100px;  
+}
 
-.contain-middle,.contain-bottom {
-	flex-direction: column;
+.contain-page {
+    display: flex;
+    flex-direction: row-reverse;}
+
+
+.contain-bottom {
+    flex-direction: column;
+    padding : 20px 5px 20px 5px
+    margin-right: 50px;
+    width: 1280px;
+}
+
+.icones {
+    justify-content: space-around;  
+    padding: 40px 20px 40px 20px;
 }
 
 .skill_star {
     flex-direction: row;
-    justify-content: space-evenly;
-}
+    justify-content: space-evenly;  
+    padding-bottom: 20px;
+    padding-top: 20px;
+    }
 
-.bloc1{
-    order: 2;
-}
-
-.bloc2{
-    order: 1;
-}
-
-.bloc1{
+.cont {
     flex-direction: column;
-}
-
-.contain-bottom 
-{order : 1;}
-.contain-middle {
-    order:2;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1px;
+    padding-bottom: 20px;
+    padding-top: 40px;
 }
 
 
 html { 
-	font-family: aaarghnormal, Arial; 
-	color: #263238;
+    font-family: aaarghnormal, Arial; 
+    color: #263238;
+}
+
+a {
+text-decoration: none;
+color:#263238;
+}
+
+
+
+
+
+
+.comp_loi_cont {
+     background-image: linear-gradient(to left, #263238, transparent);
+    background-size: contain;
+    color: #0097A7;
+    text-align: end;
+    padding-right: 10px;
+    
+    margin :0;
 }
 
 .name span {
-	color: #0097A7;
+    color: #0097A7;
+}
+.job span {
+    text-decoration: underline #0097A7;
 }
 
-.contain-middle {
-    margin-left: 200px;
-    font-size: 1.7em
+.fas.fa-graduation-cap, .fas.fa-user-tie {
+    color: #0097A7;
 }
 
-.skills1 {
-    padding-left: 20px;
+.exp {
+    border-bottom :2px solid rgb(0,151,167); 
+}
+
+.exp1 {
+    font-weight: bold;
 }
 
 .bloc1 {
-    margin-left: 300px;
-    margin-top: 50px;
+    
+    width: 100%;
+    max-width: 600px;
+    min-width: 300px;
+
 }
 
+.bloc1 a {
+    width: 100%;
 
-
-.job {
-    font-size: 1.8em;
-}
-
-.name {
-    font-size: 3em;
-}
-.contain-bottom {
-    font-size: 1.5em;
-    padding-left: 20px
-}
-a {
-    text-decoration: none;
 }
 
-.right {
-    justify-content: flex-end;
+.bloc1 a img {
+    width: 100%;
+    max-width: 1280px;
+    min-width: 300px;
 }
+
+.bloc2 {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bloc5 {
+    background-image: linear-gradient(to left, #0097A7, transparent);
+}
+
