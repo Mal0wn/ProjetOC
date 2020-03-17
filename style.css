@@ -33,8 +33,7 @@ html {
 }
 
 .main-container {
-    flex-direction: column;
-    
+    flex-direction: column;  
 }
 
 .contain-left {
@@ -58,7 +57,6 @@ html {
 .container-bottom {
     text-align: center;
     font-size: 0.5em;
-   
 }
 
 a {text-decoration: none;
@@ -103,7 +101,6 @@ a {text-decoration: none;
 
 .exp1 {
     font-weight: bold;
-
 }
 
 .exp {
