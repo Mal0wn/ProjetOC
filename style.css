@@ -10,94 +10,59 @@
     font-style: normal;
 }
 
-.main-container, 
-.contain-top, 
-.contain-middle, 
-.contain-bottom,
-.bloc1, 
-.icones, 
-.skill_star, 
-.cont {
-    display: flex;
-}
 
-.main-container { 
-    flex-direction: column;
-    align-items: center;
+html {
+    font-family: aaarghnormal;
     font-size: 2em;
-    margin: auto;
-    height: auto;    
 }
 
-.contain-top {
-    flex-direction: row;
-    justify-content: flex-start;
-    padding : 20px 20px 20px 20px;
+
+.main-container,
+.contain-page,
+.skill_star,
+.icones {
+    display:flex;
 }
 
-.contain-middle{
-    flex-direction: column;
-    padding : 20px 20px 20px 20px;
-    margin-left: 100px;  
-}
 
 .contain-page {
-    display: flex;
-    flex-direction: row-reverse;}
-
-
-.contain-bottom {
-    flex-direction: column;
-    padding : 20px 5px 20px 5px
-    margin-right: 50px;
-    width: 1280px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.icones {
-    justify-content: space-around;  
-    padding: 40px 20px 40px 20px;
+.main-container {
+    flex-direction: column;
+    
+}
+
+.contain-left {
+    margin-right: 80px;
+    max-width: 500px;
+    padding-left: 10px;
+    background-image: linear-gradient(to left, #0097A7 , transparent);
+    color: #263238;
+}
+
+.contain-right {
+    margin-left:80px;
+    padding-right: 10px;
 }
 
 .skill_star {
     flex-direction: row;
-    justify-content: space-evenly;  
-    padding-bottom: 20px;
-    padding-top: 20px;
-    }
-
-.cont {
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 1px;
-    padding-bottom: 20px;
-    padding-top: 40px;
+    justify-content: space-around;
 }
 
+.container-bottom {
+    text-align: center;
+    font-size: 0.5em;
+   
+}
 
-html { 
-    font-family: aaarghnormal, Arial; 
+a {text-decoration: none;
     color: #263238;
-}
-
-a {
-text-decoration: none;
-color:#263238;
-}
-
-
-
-
-
-
-.comp_loi_cont {
-     background-image: linear-gradient(to left, #263238, transparent);
-    background-size: contain;
-    color: #0097A7;
-    text-align: end;
-    padding-right: 10px;
-    
-    margin :0;
 }
 
 .name span {
@@ -107,44 +72,40 @@ color:#263238;
     text-decoration: underline #0097A7;
 }
 
-.fas.fa-graduation-cap, .fas.fa-user-tie {
+.photo {
+    padding-top: 30px;
+    text-align: center;
+    padding: auto;
+}
+
+.titleleft {
+    background-image: linear-gradient(to left, #263238, transparent);
+    text-align: center;
+    color: #359aa3;
+}
+
+.icones {
+    justify-content: space-around;
+    padding: 0px 10px 30px 10px;
+}
+
+.about article {
+    padding: 0px 10px 0px 20px;
+}
+
+.fas.fa-pencil-alt, .fas.fa-graduation-cap, .fas.fa-user-tie {
     color: #0097A7;
 }
 
-.exp {
-    border-bottom :2px solid rgb(0,151,167); 
+.exp2 {
+    color:#263238;
 }
 
 .exp1 {
     font-weight: bold;
-}
-
-.bloc1 {
-    
-    width: 100%;
-    max-width: 600px;
-    min-width: 300px;
 
 }
 
-.bloc1 a {
-    width: 100%;
-
+.exp {
+    border-bottom :2px solid rgb(0,151,167);
 }
-
-.bloc1 a img {
-    width: 100%;
-    max-width: 1280px;
-    min-width: 300px;
-}
-
-.bloc2 {
-    padding-left: 20px;
-    display: flex;
-    flex-direction: column;
-}
-
-.bloc5 {
-    background-image: linear-gradient(to left, #0097A7, transparent);
-}
-
