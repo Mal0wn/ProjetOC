@@ -13,7 +13,7 @@
 
 html {
     font-family: aaarghnormal;
-    font-size: 2em;
+    font-size: 1.2em;
 }
 
 
@@ -77,18 +77,24 @@ a {text-decoration: none;
 }
 
 .titleleft {
-    background-image: linear-gradient(to left, #263238, transparent);
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(38,50,56,1) 37%);
+    background: -webkit-linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(38,50,56,1) 37%);
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(38,50,56,1) 37%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#263238",GradientType=1);
     text-align: center;
     color: #359aa3;
+    padding : 5px 0px 2px 0px;
 }
 
 .icones {
     justify-content: space-around;
-    padding: 0px 10px 30px 10px;
+    padding: 0px 10px 20px 10px;
 }
 
 .about article {
-    padding: 0px 10px 0px 20px;
+    padding: 0px 10px 5px 20px;
+    text-align: center;
 }
 
 .fas.fa-pencil-alt, .fas.fa-graduation-cap, .fas.fa-user-tie {
@@ -105,4 +111,16 @@ a {text-decoration: none;
 
 .exp {
     border-bottom :2px solid rgb(0,151,167);
+}
+
+.cont {
+    text-align: center;
+}
+
+.navbar-malo {
+    display:none;
+}
+
+.fas.fa-puzzle-piece, .fas.fa-info, .fas.fa-id-card {
+    display:none;
 }
