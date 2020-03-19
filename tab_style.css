@@ -38,6 +38,7 @@ html {
  .contain-left {
     flex-direction: column;
     text-align: center;
+    padding-top: 30px;
  }
 
  .photo {
@@ -85,9 +86,10 @@ html {
 }
 
 
- .icones {
+.icones {
  	text-align : center;
- 	
+ 	padding-top: 20px;
+    padding-bottom: 20px;
  	justify-content: space-around;
  	flex-wrap: wrap;
  }
@@ -98,10 +100,14 @@ html {
  }
 
  .container-bottom {
- 	padding-top: 80px;
+ 	margin-top: 50px;
  	text-align: center;
  	color: #0097A7;
+    background-color: #969494;
  }
+
+
+
 
  a {text-decoration: none;
     color: #263238;
@@ -112,7 +118,8 @@ html {
 
 .fas.fa-pencil-alt, 
 .fas.fa-graduation-cap, 
-.fas.fa-user-tie,.fas.fa-puzzle-piece, 
+.fas.fa-user-tie,
+.fas.fa-puzzle-piece, 
 .fas.fa-info, 
 .fas.fa-id-card {
     color: #0097A7;
@@ -138,3 +145,20 @@ html {
     justify-content: space-around;
 }
 
+.experience {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.education {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.nav-item {
+    color: black;
+}
+
+header {
+    margin-top: 10px;
+}

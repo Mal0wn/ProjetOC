@@ -85,9 +85,11 @@ html {
 
  .icones {
     text-align : center;
-    
+    font-size: 1.5em;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 30px;
  }
 
  .right {
@@ -96,9 +98,11 @@ html {
  }
 
  .container-bottom {
-    padding-top: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
     color: #0097A7;
+    background-color: #969494;
  }
 
  a {text-decoration: none;
@@ -110,7 +114,8 @@ html {
 
 .fas.fa-pencil-alt, 
 .fas.fa-graduation-cap, 
-.fas.fa-user-tie,.fas.fa-puzzle-piece, 
+.fas.fa-user-tie,
+.fas.fa-puzzle-piece, 
 .fas.fa-info, 
 .fas.fa-id-card {
     color: #0097A7;
@@ -134,4 +139,22 @@ html {
 .navbar-nav.mr-auto {
     flex-direction: row;
     justify-content: space-around;
+}
+
+.experience,
+.education,
+.reference,
+.contact,
+.about,
+.hobbies {
+    margin-top: 20px;
+}
+
+.collapse.navbar.collapse {
+    color:#263238;
+}
+
+
+header {
+    margin-top: 10px;
 }
